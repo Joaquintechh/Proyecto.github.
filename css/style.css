@@ -1,0 +1,442 @@
+/*paleta de color
+#28036a:azul
+#ffffff: blanco
+#EBE3D5; gris */
+
+/*header*/
+
+@import url("https://fonts.googleapis.com/css2? family= Montserrat & family= Raleway:wght@300 & display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #28036a;
+  height: 150px;
+}
+
+header > img {
+  display: flex;
+  width: 300px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header a {
+  color: #ebe3d5;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+header li {
+  margin-right: 20px;
+}
+
+/*main* del index*/
+
+main {
+  background-color: #ebe3d5;
+  height: 830px;
+  margin-top: 50px;
+}
+
+.titulo-eslogan {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 2rem;
+  color: #28036a;
+  margin-top: 3%;
+  margin-bottom: 3%;
+
+  font-family: "georgia", serif;
+}
+
+.contenedor-imagenes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.centrar-tres {
+  font-size: 2rem;
+}
+
+.centrar-dos {
+  width: 170px;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.centrar-cuatro {
+  text-align: center;
+}
+
+.centrar-cinco {
+  font-size: 2rem;
+  word-wrap: break-word;
+}
+
+.primero {
+  display: flex;
+  justify-content: center;
+}
+
+.medida {
+  width: 22%;
+  height: 250px;
+  margin: 0px 100px;
+}
+
+.medida-dos {
+  width: 22%;
+  height: 250px;
+  margin: 0px 100px;
+}
+
+.conteiner {
+  display: flex;
+  justify-content: center;
+}
+
+.mejor-servicio {
+  margin-top: 10px;
+  text-align: center;
+  color: #28036a;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.4rem;
+}
+
+.parrafo {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2rem;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  font-family: "arial", sans-serif;
+}
+
+.gris {
+  background-color: #ebe3d5;
+  height: 300px;
+}
+
+.loguito {
+  width: 15%;
+  height: 160px;
+}
+
+.chiquito {
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.dibujos {
+  font-size: 1.6rem;
+}
+
+/*Footer del index*/
+
+footer {
+  background-color: #28036a;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  height: 200px;
+}
+
+.iconos-conteiner {
+  margin-top: 20px;
+}
+
+.iconos-conteiner img {
+  margin-right: 10px;
+}
+
+.img {
+  margin-top: 70px;
+  height: 30px;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.lista a {
+  color: #ebe3d5;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.lista li {
+  margin: 0 10px;
+  margin-bottom: 70px;
+}
+
+.arriba {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 30px;
+  position: fixed;
+  bottom: 90px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.arriba:hover {
+  background-color: #ebe3d5;
+}
+
+.derechos-autordos {
+  background-color: #ebe3d5;
+  text-align: center;
+  padding: 2px;
+}
+
+.derechos-autor {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #28036a;
+}
+
+/*main de quienes somos*/
+
+.titulo-eslogan-dos {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 2rem;
+  color: #28036a;
+  margin-top: 3%;
+  margin-bottom: 3%;
+
+  font-family: "georgia", serif;
+  padding-top: 40px;
+}
+
+.contenedor-grid {
+  display: grid;
+  grid-template-columns: 70% 20%;
+  grid-template-rows: auto auto;
+  column-gap: 10px;
+}
+
+.imagenes-grid {
+  width: 250px;
+  margin-top: 30px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+
+.tipografia {
+  margin-top: 24px;
+  font-size: 1.8rem;
+  text-align: justify;
+  line-height: 2;
+  font-family: "Raleway", sans-serif;
+}
+
+.fondo {
+  height: 305px;
+  background: url(../medios/bannerr.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-size: 2rem;
+  color: #ebe3d5;
+  text-shadow: 6px 1px 2px rgba(0, 0, 0, 0.87);
+}
+
+/*main de producto*/
+
+.largo {
+  height: 1000px;
+}
+
+.texto-imagen {
+  display: flex;
+
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.texto-imagendos {
+  height: 250px;
+  margin: 50px 10px 0 20px;
+}
+
+/*main de donde operamos*/
+
+.imagenes-uno {
+  width: 700px;
+  height: 400px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.carrusel-flecha {
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
+.operacion-cuatro {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 2rem;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  font-family: "arial", sans-serif;
+}
+
+/*main de contacto*/
+
+.contacto-uno {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 520px;
+}
+.contacto-dos {
+  width: 48%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-right: 25px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 2rem;
+  line-height: 70px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 150px;
+}
+.contacto-cinco {
+  margin-top: 65px;
+}
+label {
+  margin-bottom: 8px;
+}
+input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 350px;
+  border: 1px solid #ebe3d5;
+}
+input:focus {
+  background-color: cornflowerblue;
+}
+.contacto-tres {
+  background-color: #28036a;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    height: 160px;
+    width: 94%;
+  }
+  header > img {
+    width: 150px;
+  }
+  header ul {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-right: 40px;
+  }
+  header a {
+    font-size: 1.4rem;
+  }
+  main {
+    width: 100%;
+  }
+  .titulo-eslogan {
+    font-size: 1.5rem;
+  }
+  .contenedor-imagenes {
+    justify-content: space-around;
+  }
+  .centrar-tres {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .centrar-dos {
+    width: 110px;
+  }
+  .parrafo {
+    font-size: 1.2rem;
+  }
+  .medida {
+    width: 500px;
+  }
+  .medida-dos {
+    display: none;
+  }
+  footer {
+    height: 100%;
+  }
+  .img {
+    height: 25px;
+  }
+  .lista {
+    margin-bottom: 35px;
+  }
+  .arriba {
+    margin-top: 80px;
+    right: 5px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contenedor-grid {
+    display: flex;
+    flex-direction: row;
+  }
+  .imagenes-grid {
+    display: none;
+  }
+  .tipografia {
+    font-size: 1.4rem;
+    line-height: 2;
+    overflow-wrap: break-word;
+  }
+
+  .fondo {
+    height: 550px;
+    background-size: cover;
+  }
+}
