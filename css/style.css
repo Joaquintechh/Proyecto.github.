@@ -550,7 +550,8 @@ input:focus {
 
   .celular {
     display: block;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    overflow-wrap: break-word;
     font-family: "Montserrat", sans-serif;
   }
 
@@ -566,9 +567,19 @@ input:focus {
 
   .medio {
     text-align: center;
-    margin-left: 170px;
+    margin-left: 175px;
+    font-size: 1.6rem;
+  }
+
+  .medio-dos {
+    text-align: center;
+    white-space: nowrap;
+    margin-left: 130px;
+    font-size: 1.6rem;
   }
 }
+
+/*media de donde operamos*/
 
 @media only screen and (max-width: 480px) {
   .carrusel-flecha {
@@ -576,6 +587,8 @@ input:focus {
     margin-right: 20px;
   }
 }
+
+/*media de contacto*/
 
 @media only screen and (max-width: 480px) {
   .contacto-uno {
@@ -612,6 +625,6 @@ input:focus {
   .fondo-azul {
     background-color: #28036a;
     width: 300px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
 }
