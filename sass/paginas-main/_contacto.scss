@@ -1,0 +1,91 @@
+/*main de contacto*/
+.contacto-uno {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 550px;
+  color: $azul-francia;
+  font-family: $font-titulo;
+  section {
+    .contacto-cinco {
+      margin-top: 65px;
+      margin-left: 200px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      margin-left: 200px;
+      label {
+        margin-bottom: 5px;
+      }
+      input,
+      textarea {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 5px;
+        padding: 8px;
+        width: 270px;
+        border: 1px solid $gris;
+      }
+      .contacto-tres {
+        height: 40px;
+        background-color: $azul-francia;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+  .contacto-dos {
+    width: 45%;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 2rem;
+    line-height: 40px;
+    .info-contacto {
+      color: $azul-francia;
+      font-family: $font-titulo;
+      font-size: 2.2rem;
+    }
+    .info-contacto-tres {
+      font-family: $font-texto;
+      font-size: 1.5rem;
+    }
+    .info-contacto-tres {
+      font-family: $font-texto;
+      font-size: 1.5rem;
+    }
+    .info-contacto-tres {
+      font-family: $font-texto;
+      font-size: 1.5rem;
+    }
+  }
+  section {
+    .info-contacto-dos {
+      color: $azul-francia;
+      font-family: $font-titulo;
+      font-size: 1.9rem;
+    }
+    .info-contacto-tres {
+      font-family: $font-texto;
+      font-size: 1.5rem;
+    }
+    .info-contacto-tres {
+      font-family: $font-texto;
+      font-size: 1.5rem;
+    }
+  }
+  section {
+    .info-contacto-dos {
+      color: $azul-francia;
+      font-family: $font-titulo;
+      font-size: 1.9rem;
+    }
+    .info-contacto-tres {
+      font-family: $font-texto;
+      font-size: 1.5rem;
+    }
+  }
+}

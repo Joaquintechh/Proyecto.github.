@@ -1,0 +1,89 @@
+/*main de producto*/
+.largo {
+  height: 1180px;
+  section {
+    .titulo-eslogan-dos {
+      text-align: center;
+      text-decoration: underline;
+      font-size: 2rem;
+      color: $azul-francia;
+      margin-top: 3%;
+      margin-bottom: 3%;
+      font-family: $font-titulo;
+      padding-top: 40px;
+    }
+    .celular {
+      display: none;
+    }
+    .celular-dos {
+      display: none;
+    }
+  }
+  .azul-dos {
+    background-color: $azul-francia;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    .texto-imagen {
+      display: grid;
+      grid-template-columns: 60% 20%;
+      align-items: center;
+      font-size: 1.5rem;
+      font-family: $font-texto;
+      color: $gris;
+      margin-left: 100px;
+      .izquierda {
+        margin-right: 50px;
+      }
+      .tierras {
+        width: 320px;
+        height: 250px;
+      }
+      .color {
+        color: black;
+        font-family: $font-texto;
+      }
+      .tierras {
+        width: 320px;
+        height: 250px;
+      }
+      .color {
+        color: black;
+        font-family: $font-texto;
+      }
+      .tierras {
+        width: 320px;
+        height: 250px;
+      }
+      .color {
+        color: black;
+        font-family: $font-texto;
+      }
+    }
+  }
+  .azul {
+    background-color: $azul-francia;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    .texto-imagen {
+      display: grid;
+      grid-template-columns: 60% 20%;
+      align-items: center;
+      font-size: 1.5rem;
+      font-family: $font-texto;
+      color: $gris;
+      margin-left: 100px;
+      .izquierda {
+        margin-right: 50px;
+      }
+      .texto-imagendos {
+        height: 250px;
+        margin-top: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+/*main de quienes somos*/
+
+.cuerpo {
+  height: 598px;
+  .titulo-eslogan-dos {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2rem;
+    color: $azul-francia;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: $font-titulo;
+    padding-top: 40px;
+  }
+  .contenedor-grid {
+    display: grid;
+    grid-template-columns: 70% 20%;
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+    .tipografia {
+      margin-top: 24px;
+      font-size: 1.8rem;
+      text-align: justify;
+      line-height: 2;
+      font-family: $font-texto;
+    }
+    div {
+      .imagenes-grid {
+        width: 250px;
+        margin-top: 30px;
+        margin-left: 70px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .fondo {
+    height: 305px;
+    background: url(../medios/banner-volquete.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 2rem;
+    color: $gris;
+    text-shadow: 6px 1px 2px rgba(0, 0, 0, 0.87);
+    .destacados {
+      color: $gris;
+      margin: 10px 0px 20px 0px;
+      text-align: center;
+      font-family: $font-titulo;
+      font-size: 2.7rem;
+    }
+    .destacados-dos {
+      text-align: center;
+      margin-bottom: 50px;
+      font-size: 2rem;
+      overflow-wrap: break-word;
+      font-family: $font-texto;
+    }
+  }
+}
