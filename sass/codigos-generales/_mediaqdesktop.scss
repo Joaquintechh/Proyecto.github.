@@ -1,0 +1,50 @@
+@media (min-width: 1025px) and (max-width: 1300px) {
+  .body {
+    overflow-x: hidden;
+    .main {
+      height: 900px;
+      section {
+        .conteiner {
+          .medida {
+            width: 200px;
+          }
+          .medida-dos {
+            width: 200px;
+          }
+        }
+      }
+    }
+    .cuerpo {
+      .contenedor-grid {
+        .tipografia {
+          margin-right: 50px;
+        }
+        .imagenes-grid {
+          height: 200px;
+          margin-left: 0px;
+        }
+      }
+    }
+    .azul {
+      .texto-imagen {
+        .texto-imagendos {
+          height: 240px;
+          margin-right: 30px;
+        }
+      }
+    }
+    .contacto-uno {
+      .formulario {
+        form {
+          .contacto-tres {
+            max-width: 267px;
+            height: 40px;
+            background-color: $azul-francia;
+            color: white;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

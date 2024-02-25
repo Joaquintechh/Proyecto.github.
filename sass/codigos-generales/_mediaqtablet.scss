@@ -1,0 +1,143 @@
+@media (min-width: 481px) and (max-width: 1024px) {
+  .body {
+    overflow-x: hidden;
+    .header {
+      height: 170px;
+      max-width: 100%;
+      img {
+        max-width: 50%;
+      }
+      ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-right: 20px;
+        li {
+          a {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+    .main {
+      width: 100%;
+      .titulo-eslogan-dos {
+        font-size: 2rem;
+      }
+      .contenedor-imagenes {
+        justify-content: space-around;
+        .centrar {
+          .centrar-dos {
+            max-width: 150px;
+          }
+          .centrar-tres {
+            font-size: 1.7rem;
+            text-align: center;
+          }
+        }
+      }
+      .parrafo {
+        font-size: 1.4rem;
+      }
+      .medida {
+        width: 500px;
+      }
+      .medida-dos {
+        display: none;
+      }
+      .medida-dos {
+        display: none;
+      }
+    }
+    footer {
+      height: 100%;
+      .img {
+        height: 25px;
+      }
+      .lista {
+        margin-bottom: 35px;
+      }
+      .arriba {
+        margin-top: 80px;
+        right: 5px;
+      }
+    }
+    .cuerpo {
+      .contenedor-grid {
+        display: flex;
+        flex-direction: row;
+        .tipografia {
+          font-size: 1.4rem;
+          line-height: 2;
+          overflow-wrap: break-word;
+        }
+        .imagenes-grid {
+          display: none;
+        }
+      }
+      .fondo {
+        height: 550px;
+        background-size: cover;
+      }
+    }
+    .largo {
+      height: auto;
+      .azul {
+        margin-left: 0px;
+        margin-right: 0px;
+        .texto-imagen {
+          grid-template-columns: 50% 20%;
+          margin-left: 0px;
+          font-size: 1.3rem;
+          .izquierda {
+            margin-right: 0px;
+          }
+          .texto-imagendos {
+            height: 180px;
+            margin-right: 0px;
+          }
+        }
+      }
+    }
+    .contacto-uno {
+      height: auto;
+      .formulario {
+        .contacto-cinco {
+          margin-left: 110px;
+        }
+        form {
+          margin-right: auto;
+          margin-left: 110px;
+          .contacto-tres {
+            max-width: 267px;
+            height: 40px;
+            background-color: $azul-francia;
+            color: white;
+            cursor: pointer;
+          }
+        }
+      }
+      .contacto-dos {
+        line-height: 30px;
+        padding: 0px;
+        margin-top: 0px;
+        margin-left: 110px;
+        margin-right: 20px;
+        color: $gris;
+      }
+      .fondo-azul {
+        background-color: $azul-francia;
+        width: 300px;
+        margin-bottom: 80px;
+        margin-top: 60px;
+        .info-contacto {
+          color: $gris;
+        }
+        .info-contacto-dos {
+          color: $gris;
+          margin-top: 80px;
+        }
+      }
+    }
+  }
+}

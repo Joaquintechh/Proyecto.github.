@@ -1,0 +1,167 @@
+@media (min-width: 320px) and (max-width: 405px) {
+  .body {
+    overflow-x: hidden;
+    .header {
+      width: auto;
+      img {
+        width: 200px;
+      }
+      ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-right: 35px;
+        margin-left: 0px;
+        li {
+          a {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+    .main {
+      width: auto;
+      .titulo-eslogan-dos {
+        font-size: 2rem;
+      }
+      .contenedor-imagenes {
+        justify-content: space-around;
+        .centrar {
+          .centrar-dos {
+            width: 100px;
+          }
+          .centrar-tres {
+            font-size: 1.2rem;
+            text-align: center;
+          }
+        }
+      }
+      .parrafo {
+        font-size: 1.2rem;
+      }
+      .medida {
+        width: 200px;
+      }
+      .medida-dos {
+        display: none;
+      }
+      .medida-dos {
+        display: none;
+      }
+    }
+    footer {
+      height: 100%;
+      .img {
+        height: 25px;
+      }
+      .lista {
+        margin-bottom: 10px;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-right: 40px;
+      }
+      .arriba {
+        margin-top: 80px;
+        margin-right: 5px;
+      }
+    }
+    .cuerpo {
+      width: 100%;
+      .contenedor-grid {
+        display: flex;
+        flex-direction: row;
+        .tipografia {
+          font-size: 1.4rem;
+          line-height: 2;
+          overflow-wrap: break-word;
+        }
+        .imagenes-grid {
+          display: none;
+        }
+      }
+      .fondo {
+        height: 550px;
+        background-size: cover;
+      }
+    }
+    .largo {
+      height: 100%;
+      width: 100%;
+      .azul,
+      .azul-dos {
+        display: none;
+      }
+      .section-celular {
+        display: block;
+        .celular {
+          display: block;
+          font-size: 1.6rem;
+          overflow-wrap: break-word;
+          font-family: $font-texto;
+        }
+        .celular-dos {
+          display: block;
+          .celular-tres {
+            width: 280px;
+            margin-top: 20px;
+            margin-left: 20%;
+          }
+          .carta {
+            .medio {
+              text-align: center;
+              margin-left: 160px;
+              font-size: 1.6rem;
+            }
+          }
+
+          .medio-dos {
+            text-align: center;
+            white-space: nowrap;
+            margin-left: 120px;
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
+    .largo-dos {
+      section {
+        .operacion-cuatro {
+          font-size: 1.4rem;
+        }
+      }
+    }
+    .contacto-uno {
+      height: 1220px;
+      .formulario {
+        .contacto-cinco {
+          margin-left: 30px;
+        }
+        form {
+          margin-right: 0px;
+          margin-left: 30px;
+        }
+      }
+      .contacto-dos {
+        line-height: 30px;
+        padding: 0px;
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-right: 20px;
+        color: $gris;
+      }
+      .fondo-azul {
+        background-color: $azul-francia;
+        width: 300px;
+        margin-bottom: 80px;
+        .info-contacto {
+          color: $gris;
+        }
+        .info-contacto-dos {
+          color: #ebe3d5;
+          margin-top: 80px;
+        }
+      }
+    }
+  }
+}
